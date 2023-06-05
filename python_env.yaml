@@ -1,0 +1,8 @@
+python: "3.10.9"
+build_dependencies:
+  - pip
+dependencies:
+  - mlflow
+  - pyyaml
+  - hydra-core
+  - wandb
