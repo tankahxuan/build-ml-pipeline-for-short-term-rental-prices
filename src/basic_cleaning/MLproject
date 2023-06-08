@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the raw input raw for cleaning
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: Name of the output file after basic cleaning has been performed on the input artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of the output artifact
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: A brief description of the output artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Min property price accepted
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Max property price accepted
         type: string
 
 
